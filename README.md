@@ -43,5 +43,5 @@ Challenge 5. DATE OF BIRTH
 1. ask for the date of birth
 2. analyse the date
 3. to calculate the age, susbtract the date of birth from 2023
-4. print the "the actual age is: (the age calculated)" 
+4. print the "the current age is: (the age calculated)" 
 5. end
