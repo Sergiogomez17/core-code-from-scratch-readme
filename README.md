@@ -1,4 +1,5 @@
 # core-code-from-scratch-readme
+WEEK 1 
 challenge 1: PIZZA
 1. purchase the recipe
 2. purchase all the ingredients
@@ -28,3 +29,19 @@ challenge 3. GEOMETRY
 7. if the dara is a Sphere us the formula (C)
 8.print the result (volumen)
 9. end
+
+Challenge 4. Numbers
+1. Ask for the number 
+2. verify the number 
+3. if the number is able to divide by 2 
+4. print "this number is even"
+5. if no 
+6. print "this number is odd"
+7. end
+
+Challenge 5. DATE OF BIRTH
+1. ask for the date of birth
+2. analyse the date
+3. to calculate the age, susbtract the date of birth from 2023
+4. print the "the actual age is: (the age calculated)" 
+5. end
