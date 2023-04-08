@@ -45,3 +45,12 @@ Challenge 5. DATE OF BIRTH
 3. to calculate the age, susbtract the date of birth from 2023
 4. print the "the current age is: (the age calculated)" 
 5. end
+
+challenge 6. TREASURE
+analysing the situation, we are comparing the chests:
+Left chest: The middle chest has a treasure
+Middle chest: All these chests have treasures in them
+Right chest: Only one of these chests has treasures.
+
+the first one and the second one have messages about contradictions, so that´s mine that the third have the trasure because it culd say the true un the message it makees possible to have the treasure.
+ the correct answer is the chest C
