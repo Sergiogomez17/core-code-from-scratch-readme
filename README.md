@@ -54,3 +54,4 @@ Right chest: Only one of these chests has treasures.
 
 the first one and the second one have messages about contradictions, so that´s mine that the third have the trasure because it culd say the true un the message it makees possible to have the treasure.
  the correct answer is the chest C
+ END.
