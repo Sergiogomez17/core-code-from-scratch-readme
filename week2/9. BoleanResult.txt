@@ -1,0 +1,13 @@
+
+a <- 5 == 3
+(La comparacion de igualdad entre 5 y 3, por lo tanto no son numeros iguales. FALSO)
+b <- 4 <> 3
+(La comparacion en cuanto 4 es un valor diferente a 3 , por lo tanto es correcto porque son dos numeros diferentes. VERDADERO)
+c <- 7 > 7
+(La comparacion de 7 es mayor a 7, por lo tanto es falso porque los numeros son iguales y no mayor que el otro. FALSO)
+d <- 4 < 4
+(La comparacion de 4 es menor a 4, por lo tanto ninguno es menor al otro porque son numero iguales. FALSO)
+e <- 100 <= 90
+( La comparacion de 100 es menor o igual a 90, por lo tanto es falso porque 100 es mayor que 90 y tampoco es menor. FALSO)
+f <- 40 >= 40
+(comparacion de que si 40 es igual o mayor a 40, por lo tanto si es correcto porque son iguales mas non es mayor pero si cumple una de las condiciones establecidas. VERDADERO

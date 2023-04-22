@@ -1,0 +1,15 @@
+
+T & T = T  CORRECT
+T & F = F  CORRECT
+F & T = T  INCORRECT
+F & F = F  CORRECT
+T | T = T  CORRECT
+T | F = F  INCORRECT
+F | T = T  CORRECT
+F | F = F  CORRECT
+~T = T	iNCORRECT
+~F = T	CORRECT
+(T & F) | (~F) = T	CORRECT
+(T | F ) & (F | F) = T	INCORRECT
+~((T | F ) & (F | F)) & F = T	CORRECT
+~((T | F ) & (F | F)) & T = F	CORRECT
