@@ -1,0 +1,21 @@
+Proceso Multiplicationtables
+	
+	definir tab Como Entero
+	definir iterador Como entero
+	
+	
+	
+	imprimir '<<<<<<<<<<<<<<< __________Multiplication tables_________>>>>>>>>>>>>>>>>>>>'
+	imprimir 'Enter the table to calculate'
+	leer tab
+	
+	imprimir 'Number table to calculate = ' ConvertirATexto(tab) +' '
+	para iterador <-1 Hasta 10 Con Paso 1 hacer
+		
+		
+		Imprimir ConvertirATexto(tab) '*' + ConvertirATexto(iterador)  + '=' ConvertirATexto(tab* iterador)
+		
+	FinPara
+	
+
+FinProceso

@@ -1,0 +1,26 @@
+Proceso  ascedgind_descendingNumbers
+	definir number Como Entero
+	definir option como entero
+	definir iterador Como entero
+	
+	Escribir 'Enter a Number'
+	leer number
+	Escribir 'CHOSE AN OPTION :'
+	Imprimir ' 1. Writhe asdending mode'
+	imprimir ' 2. writhe descending mode'
+	escribir 'Enter your chose'
+	leer option
+	
+	segun option hacer
+		1: 
+			para iterador <-0 hasta number con paso  1 hacer 
+				imprimir ConvertirATexto(iterador)
+			finpara
+		2: para iterador <- number hasta 0 con paso -1 hacer
+				imprimir 	ConvertirATexto(iterador)
+			FinPara
+			
+				
+				 FinSegun
+	
+FinProceso

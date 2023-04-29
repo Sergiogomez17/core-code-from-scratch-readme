@@ -1,0 +1,37 @@
+Proceso greetings
+	definir hour Como entero
+	definir continue como cadena
+	definir salute como entero
+	salute <-0
+	continue <- 'si'
+	
+	mientras continue == 'si' hacer
+	
+	Imprimir 'cheers'
+	imprimir 'Enter the actual hour (0-23)'
+	leer hour
+	si hour <12 entonces
+		imprimir 'Hello good morning'
+	SiNo
+		si hour <=18 Entonces
+			imprimir 'Good afternong'
+			
+		sino 
+			si hour <23 Entonces
+				imprimir 'Good night'
+			FinSi 
+			
+		FinSi
+		salute <- salute	+1
+		escribir 'would you like to continue? (yes/no)'
+		
+		leer continue
+		
+	FinSi
+	
+FinMientras
+
+	Imprimir 'salutes ' + ConvertirATexto(salute)
+	
+	
+FinProceso
