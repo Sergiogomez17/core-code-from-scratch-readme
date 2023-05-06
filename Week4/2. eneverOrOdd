@@ -1,0 +1,22 @@
+Proceso eneverOrOdd
+	definir number como entero
+	Repetir
+		escribir 'write a number between 1 to 50'
+		leer number
+		si number <1 | number >50 Entonces
+			imprimir 'invalid number'
+			
+		FinSi
+	mientras que number < 1 | number >50 entonces
+	par =number %  2=0
+	
+	Para count=1 Hasta num Con Paso 1 Hacer
+		SI count % 2 = 0 & par Entonces
+			Imprimir count
+		FinSi
+		SI count % 2 = 1 & ~(par) Entonces
+			Imprimir count
+		FinSi
+	FinPara
+	
+FinProceso
