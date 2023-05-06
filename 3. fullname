@@ -1,0 +1,18 @@
+Proceso  fullname
+	definir firstname Como Caracter
+	definir lastname como caracter
+	definir correctFN Como Caracter
+	definir correctLN Como Caracter
+	
+	escribir 'Write your firstname'
+	leer firstname 
+	escribir 'write your lastname'
+	leer lastname
+	
+	
+	correctFN = Mayusculas(Subcadena(firstname,0,0)) + Minusculas(Subcadena(firstname,1, Longitud(firstname)-1))
+	
+	correctLN = Mayusculas(Subcadena(lastname,0,0)) + Minusculas(Subcadena(lastname,1, Longitud(lastname)-1))
+	
+	imprimir correctFN, " ",correctLN
+FinProceso
