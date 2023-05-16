@@ -1,0 +1,15 @@
+Proceso IF
+	definir hour Como Entero
+	
+	escribir 'Hello can you enter the hour please!'
+	leer hour
+	
+	Si hour <18 entonces
+	imprimir 'Good morning'
+SiNo
+	Imprimir 'good night'
+	
+FinSi
+
+	
+FinProceso

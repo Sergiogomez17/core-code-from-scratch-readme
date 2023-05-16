@@ -1,0 +1,26 @@
+Proceso  Comparedistance
+	
+	definir dist Como Logico
+	Definir Num Como Entero
+	definir Nnumber Como real
+	definir Pnumer Como Real
+	Nnumber=0;
+	Pnumber=0;
+	para cont=1  hasta   5 con paso 1 Hacer
+		escribir 'write a Number'
+		Leer Num
+		si Num >0 Entonces
+			Pnumber = Nnumber+ Num;
+		SiNo
+			Nnumber = Nnumber +num;
+			
+		FinSi
+	FinPara
+	dist =Pnumber >Abs (Nnumber)
+	
+imprimir dist
+	
+	
+	
+	
+FinProceso

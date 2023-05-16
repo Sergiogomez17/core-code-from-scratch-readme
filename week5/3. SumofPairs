@@ -1,0 +1,21 @@
+Proceso SumofPairs
+	definir num Como Real
+	definir result Como Real
+	definir Sum Como Real
+	sum=0;
+	Repetir
+		Escribir 'write a Number'
+		leer num
+		si num<1 |num>100 Entonces
+			Escribir 'Invalid'
+		sino 
+			si Num %2 =0
+				sum = sum+num;
+				
+			FinSi
+		FinSi
+	Mientras que nun>1 &num <100
+	result=sum;
+	
+	Imprimir 'sum'
+FinProceso

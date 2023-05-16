@@ -1,0 +1,23 @@
+	Funcion time <- CONVERTER (number)
+		Definir time Como Caracter;
+		Definir D, H, Min, sec Como Entero;
+		 
+		D = Trunc(number/86400);
+		H= Trunc(number/3600) % 24;
+		Min = Trunc(number/60) % 60;
+		Sec= number % 60; 
+		
+		time = Concatenar('DAYS: ', ConvertirATexto(D));
+		time = Concatenar(time, ', HOURS: ');
+		time= Concatenar(time, ConvertirATexto(H));
+		time= Concatenar(time, ', MINUTES: ');
+		time = Concatenar(time, ConvertirATexto(Min));
+		time = Concatenar(time, ', SECODNS: ');
+		time = Concatenar(time, ConvertirATexto(Sec));
+	Fin Funcion
+	
+	Algoritmo tIMEConverter
+		Imprimir CONVERTER(4000)
+FinAlgoritmo
+
+	
