@@ -1,0 +1,108 @@
+Week challenges (Wednesday) 💻
+VARIABLES:
+let city = 'SERGIOGOMEZ';
+console.log(city)
+
+WHAT IS X:
+let x = 'Geeta';
+console.log(x)
+
+x=geeta
+
+SEREVAL VARIABLES:
+let flower = 'rose';
+let tree= 'maple';
+
+console.log(tree);
+
+console.log(flower);
+
+REASSIGNMENT:
+
+let x = 'Tic';
+x = 'Tac';
+x = 'Toe';
+
+console.log(x)
+
+x=TOE
+
+ASSIGN VARIABLES:
+
+let x = 'Laurel';
+let y = 'Hardy';
+let z = y;
+y = x;
+x = z;
+
+console.log(x,y,z,x,z);
+
+respuesta=HARDY
+
+Week challenges (Wednesday) 💻
+
+FUCTIONS.
+
+function hello() {
+  return 'hello word!';
+}
+
+MULTIPLE FUCTIONS:
+
+function a() {
+  return 'hello a';
+}
+function b() {
+  return 'hello b';
+}
+
+FUNCTION CALLS
+function greet() {
+  return 'haydo!';
+}
+let salutation = greet();
+console.log(salutation);
+
+WHAT IS X 8fuction version)
+
+unction reply(phrase) {
+  return phrase;
+}
+
+let x = reply('How do you do?');
+
+=how do you do?
+
+PAREMETERS:
+function echo(sound) {
+  return sound;
+}
+
+Week challenges (Thursday) 💻
+STRINGS
+function geet(name) {
+  return 'hello'+ ' name!';
+}
+ 
+///////string&lengh'
+let name = 'sun';
+charNumber = name.length;
+
+////String: toUpperCase()
+
+function toCase(str) {
+  return str.toLowerCase().concat('-').concat(str.toUpperCase());
+}
+
+
+////String: charAt()
+function shortcut(str1, str2) {
+  return str1.charAt() + str2.charAt();
+}
+
+function indexOfIgnoreCase(str1, str2) {
+  let str1Lower = str1.toLowerCase();
+  let str2Lower = str2.toLowerCase();
+  return str1Lower.indexOf(str2Lower);
+}
+
