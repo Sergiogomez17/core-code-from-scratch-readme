@@ -1,0 +1,30 @@
+Week challenges (Monday) 💻
+SUBSTRACT:
+function firstWord( substr) {
+  return str.substring(0, substr.indexOf(' '));
+}
+
+REPLACE:
+function normalize(date) {
+  return date.replace(/-/g, '/');
+}
+
+
+INCREMENT:
+let x = 3;
+x+1;
+x = x * 2;
+x--;
+
+X=8
+
+FAHRENHEIT:
+function toFahrenheit(celsius) {
+  return 1.8 * celsius + 32;
+}
+
+BOLEAN:
+function nand(T, F) {
+  return !(T && F);
+}
+
